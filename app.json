@@ -11,6 +11,11 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "packagerOpts": {
+      "sourceExts": [
+        "cjs"
+      ]
+    },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
@@ -24,10 +29,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.loki11.recipe"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6c02d6a0-5d83-400d-a786-cd6e050c74a9"
+      }
     }
   }
 }
